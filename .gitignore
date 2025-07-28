@@ -52,6 +52,7 @@ apps/base_app/.dart_tool/
 **/doc/api/
 .dart_tool/
 .flutter-plugins
+.flutter-plugins*
 .flutter-plugins-dependencies
 **/generated_plugin_registrant.dart
 .packages
@@ -106,6 +107,10 @@ unlinked_spec.ds
 **/ios/Flutter/flutter_export_environment.sh
 **/ios/ServiceDefinitions.json
 **/ios/Runner/GeneratedPluginRegistrant.*
+**/flutter_assets.d
+**/debug_ios_bundle_flutter_assets.stamp
+**/package_config.json
+.package_config.json
 
 # macOS
 **/Flutter/ephemeral/
@@ -145,3 +150,6 @@ untranslated_messages.json
 **/pubspec_overrides.yaml
 
 .scannerwork/
+
+
+
