@@ -45,14 +45,14 @@ analysis_benchmark.json
 .packages.generated
 .melos_tool/
 .idea_modules/
-.flutter-plugins-dependencies
-
+package_config.json
 apps/base_app/.dart_tool/
 
 # Flutter/Dart/Pub related
 **/doc/api/
 .dart_tool/
 .flutter-plugins
+.flutter-plugins-dependencies
 **/generated_plugin_registrant.dart
 .packages
 .pub-cache/
