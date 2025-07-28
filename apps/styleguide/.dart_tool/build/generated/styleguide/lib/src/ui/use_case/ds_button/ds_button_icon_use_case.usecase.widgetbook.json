@@ -1,0 +1,10 @@
+[{
+  "name": "buildDSButtonIconUseCase",
+  "designLink": null,
+  "useCaseName": "ds_button_icon_use_case",
+  "importStatement": "package:styleguide/src/ui/use_case/ds_button/ds_button_icon_use_case.dart",
+  "componentName": "DSButtonIcon",
+  "componentImportStatement": "package:design_system/src/ui/widgets/button/button_icon/ds_button_icon.dart",
+  "navPath": "ui/widgets/button/button_icon",
+  "knobsConfigs": null
+}]

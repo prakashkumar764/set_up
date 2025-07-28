@@ -1,0 +1,10 @@
+[{
+  "name": "buildDSTextInputUseCase",
+  "designLink": null,
+  "useCaseName": "Full Configuration",
+  "importStatement": "package:styleguide/src/ui/use_case/ds_text_input_use_case.dart",
+  "componentName": "DSTextInput",
+  "componentImportStatement": "package:design_system/src/ui/widgets/ds_text_input.dart",
+  "navPath": "ui/widgets",
+  "knobsConfigs": null
+}]

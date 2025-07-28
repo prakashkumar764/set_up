@@ -1,0 +1,10 @@
+[{
+  "name": "buildDSButtonNeutralUseCase",
+  "designLink": null,
+  "useCaseName": "ds_button_neutral_use_case",
+  "importStatement": "package:styleguide/src/ui/use_case/ds_button/ds_button_neutral_use_case.dart",
+  "componentName": "DSButtonNeutral",
+  "componentImportStatement": "package:design_system/src/ui/widgets/button/neutral/ds_button_neutral.dart",
+  "navPath": "ui/widgets/button/neutral",
+  "knobsConfigs": null
+}]

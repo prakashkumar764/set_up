@@ -1,0 +1,10 @@
+[{
+  "name": "buildDSTextRichTextUseCase",
+  "designLink": null,
+  "useCaseName": "rich_text",
+  "importStatement": "package:styleguide/src/ui/use_case/ds_text/rich_text_story.dart",
+  "componentName": "DSText",
+  "componentImportStatement": "package:design_system/src/ui/widgets/ds_text.dart",
+  "navPath": "ui/widgets",
+  "knobsConfigs": null
+}]

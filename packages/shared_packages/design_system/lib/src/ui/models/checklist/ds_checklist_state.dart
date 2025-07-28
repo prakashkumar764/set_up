@@ -1,0 +1,1 @@
+enum DSChecklistState { selected, unSelected }

@@ -1,0 +1,10 @@
+[{
+  "name": "buildDSButtonPrimaryUseCase",
+  "designLink": null,
+  "useCaseName": "ds_button_primary_use_case",
+  "importStatement": "package:styleguide/src/ui/use_case/ds_button/ds_button_primary_use_case.dart",
+  "componentName": "DSButtonPrimary",
+  "componentImportStatement": "package:design_system/src/ui/widgets/button/primary/ds_button_primary.dart",
+  "navPath": "ui/widgets/button/primary",
+  "knobsConfigs": null
+}]

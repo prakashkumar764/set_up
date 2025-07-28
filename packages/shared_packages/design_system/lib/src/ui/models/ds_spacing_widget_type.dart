@@ -1,0 +1,1 @@
+enum DSSpacingWidgetType { horizontal, vertical }

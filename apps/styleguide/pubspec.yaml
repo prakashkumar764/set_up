@@ -1,0 +1,38 @@
+name: styleguide
+description: "A Flutter app that creates an interactive widget catalog showcasing your design system components in a live playground for testing and documentation."
+version: 1.0.0+1
+publish_to: 'none'
+
+environment:
+  sdk: ">=3.7.2 <4.0.0"
+  flutter: ">=3.29.3"
+
+# Define the workspace
+resolution: workspace
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  widgetbook: ^3.14.3
+  widgetbook_annotation: ^3.5.0
+  flutter_localizations:
+    sdk: flutter
+  intl: any
+
+  design_system:
+    path: ../../packages/shared_packages/design_system
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+  build_runner: ^2.5.3
+  widgetbook_generator: ^3.13.0
+
+
+flutter:
+  uses-material-design: true

@@ -1,0 +1,10 @@
+[{
+  "name": "buildDSButtonSecondaryUseCase",
+  "designLink": null,
+  "useCaseName": "ds_button_secondary_use_case",
+  "importStatement": "package:styleguide/src/ui/use_case/ds_button/ds_button_secondary_use_case.dart",
+  "componentName": "DSButtonSecondary",
+  "componentImportStatement": "package:design_system/src/ui/widgets/button/secondary/ds_button_secondary.dart",
+  "navPath": "ui/widgets/button/secondary",
+  "knobsConfigs": null
+}]

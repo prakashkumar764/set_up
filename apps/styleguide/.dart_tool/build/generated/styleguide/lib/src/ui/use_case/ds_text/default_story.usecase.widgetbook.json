@@ -1,0 +1,10 @@
+[{
+  "name": "buildDSTextDefaultUseCase",
+  "designLink": null,
+  "useCaseName": "default",
+  "importStatement": "package:styleguide/src/ui/use_case/ds_text/default_story.dart",
+  "componentName": "DSText",
+  "componentImportStatement": "package:design_system/src/ui/widgets/ds_text.dart",
+  "navPath": "ui/widgets",
+  "knobsConfigs": null
+}]

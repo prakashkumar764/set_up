@@ -1,0 +1,145 @@
+
+//
+// colors/base_colors.dart
+//
+
+// Do not edit directly, this file was auto-generated.
+
+
+
+import 'dart:ui';
+
+class DSBaseColors {
+    DSBaseColors._();
+
+    static const brandGreen25 = Color(0xFFF4FBF7);
+    static const brandGreen50 = Color(0xFFE8F7F0);
+    static const brandGreen100 = Color(0xFFD9F2E6);
+    static const brandGreen200 = Color(0xFF7AD2A7);
+    static const brandGreen300 = Color(0xFF4EC28A);
+    static const brandGreen400 = Color(0xFF27AE6C);
+    static const brandGreen500 = Color(0xFF009A4F);
+    static const brandGreen600 = Color(0xFF007B3F);
+    static const brandGreen700 = Color(0xFF005C2F);
+    static const brandGreen800 = Color(0xFF003E20);
+    static const brandGreen900 = Color(0xFF001F10);
+    static const darkGreen25 = Color(0xFFF8FBFB);
+    static const darkGreen50 = Color(0xFFEEF6F6);
+    static const darkGreen100 = Color(0xFFDEEDED);
+    static const darkGreen200 = Color(0xFFBDDADB);
+    static const darkGreen300 = Color(0xFF9CC8C9);
+    static const darkGreen400 = Color(0xFF7BB5B7);
+    static const darkGreen500 = Color(0xFF5AA3A5);
+    static const darkGreen600 = Color(0xFF488284);
+    static const darkGreen700 = Color(0xFF366263);
+    static const darkGreen800 = Color(0xFF203A3B);
+    static const darkGreen900 = Color(0xFF122121);
+    static const neutral0 = Color(0xFFFFFFFF);
+    static const neutral25 = Color(0xFFFAFAFA);
+    static const neutral50 = Color(0xFFF3F2F1);
+    static const neutral100 = Color(0xFFE7E6E4);
+    static const neutral200 = Color(0xFFD0CCC8);
+    static const neutral300 = Color(0xFFB8B3AD);
+    static const neutral400 = Color(0xFFA19A91);
+    static const neutral500 = Color(0xFF898076);
+    static const neutral600 = Color(0xFF6E675E);
+    static const neutral700 = Color(0xFF524D47);
+    static const neutral800 = Color(0xFF37332F);
+    static const neutral900 = Color(0xFF1B1A18);
+    static const neutral1000 = Color(0xFF000000);
+    static const gray700 = Color(0xFF565450);
+    static const gray800 = Color(0xFF2B2B2B);
+    static const cream25 = Color(0xFFFBF8F6);
+    static const cream50 = Color(0xFFF5EFE8);
+    static const red25 = Color(0xFFFEF6F6);
+    static const red50 = Color(0xFFFCE9E9);
+    static const red100 = Color(0xFFF9D2D2);
+    static const red200 = Color(0xFFF2A6A6);
+    static const red300 = Color(0xFFEC7979);
+    static const red400 = Color(0xFFE54D4D);
+    static const red500 = Color(0xFFD51F1F);
+    static const red600 = Color(0xFFB21A1A);
+    static const red700 = Color(0xFF861313);
+    static const red800 = Color(0xFF590D0D);
+    static const red900 = Color(0xFF2D0606);
+    static const yellow25 = Color(0xFFFFFAF5);
+    static const yellow50 = Color(0xFFFFF3E6);
+    static const yellow100 = Color(0xFFFFE8CC);
+    static const yellow200 = Color(0xFFFFD099);
+    static const yellow300 = Color(0xFFFEB967);
+    static const yellow400 = Color(0xFFFE9E2D);
+    static const yellow500 = Color(0xFFFE8A01);
+    static const yellow600 = Color(0xFFCB6E01);
+    static const yellow700 = Color(0xFF985301);
+    static const yellow800 = Color(0xFF663700);
+    static const yellow900 = Color(0xFF331C00);
+    static const green25 = Color(0xFFF8FCF8);
+    static const green50 = Color(0xFFEEF7ED);
+    static const green100 = Color(0xFFDDF0DB);
+    static const green200 = Color(0xFFBBE1B7);
+    static const green300 = Color(0xFF99D293);
+    static const green400 = Color(0xFF77C36F);
+    static const green500 = Color(0xFF55B44B);
+    static const green600 = Color(0xFF44903C);
+    static const green700 = Color(0xFF336C2D);
+    static const green800 = Color(0xFF22481E);
+    static const green900 = Color(0xFF11240F);
+    static const purple25 = Color(0xFFF6F1FE);
+    static const purple50 = Color(0xFFEFE8FD);
+    static const purple100 = Color(0xFFE0D1FB);
+    static const purple200 = Color(0xFFC0A1F7);
+    static const purple300 = Color(0xFFA072F3);
+    static const purple400 = Color(0xFF8143EF);
+    static const purple500 = Color(0xFF6214EB);
+    static const purple600 = Color(0xFF4E10BC);
+    static const purple700 = Color(0xFF3A0C8D);
+    static const purple800 = Color(0xFF27085E);
+    static const purple900 = Color(0xFF13042F);
+    static const nudeNude0 = Color(0xFFF5EFE8);
+    static const nudeNude50 = Color(0xFFF0E4D7);
+    static const nudeNude100 = Color(0xFFDCC8B3);
+    static const nudeNude200 = Color(0xFFC4A381);
+    static const nudeNude300 = Color(0xFFB09374);
+    static const nudeNude400 = Color(0xFF89725A);
+    static const nudeNude500 = Color(0xFF635242);
+    static const nudeNude600 = Color(0xFF45392D);
+    static const nudeNude700 = Color(0xFF342B22);
+    static const blushBlush25 = Color(0xFFF6EEEE);
+    static const blushBlush50 = Color(0xFFEEDEDD);
+    static const blushBlush100 = Color(0xFFE8D1CF);
+    static const blushBlush200 = Color(0xFFD9B3AF);
+    static const blushBlush500 = Color(0xFFB2675E);
+    static const blushBlush700 = Color(0xFF6B3E38);
+    static const additionalGreensGreen1 = Color(0xFF047537);
+    static const additionalGreensGreen2 = Color(0xFF004D28);
+    static const opacityPrimaryOpacity100 = Color(0x0A203A3B);
+    static const opacityPrimaryOpacity200 = Color(0x12203A3B);
+    static const opacityPrimaryOpacity300 = Color(0x21203A3B);
+    static const opacityPrimaryOpacity400 = Color(0xBF203A3B);
+    static const opacitySecondaryOpacity100 = Color(0x0A8A3FFC);
+    static const opacitySecondaryOpacity200 = Color(0x128A3FFC);
+    static const opacitySecondaryOpacity300 = Color(0x218A3FFC);
+    static const opacityNeutralOpacity100 = Color(0x0A1B1A18);
+    static const opacityNeutralOpacity200 = Color(0x141B1A18);
+    static const opacityNeutralOpacity300 = Color(0x1F1B1A18);
+    static const opacityNeutralOpacity400 = Color(0x291B1A18);
+    static const opacityNeutralOpacity500 = Color(0x4D1B1A18);
+    static const opacityWarningOpacity100 = Color(0x0AFFA83D);
+    static const opacityWarningOpacity200 = Color(0x12FFA83D);
+    static const opacityWarningOpacity300 = Color(0x21FFA83D);
+    static const opacityInformativeOpacity100 = Color(0x0A1192E8);
+    static const opacityInformativeOpacity200 = Color(0x121192E8);
+    static const opacityInformativeOpacity300 = Color(0x211192E8);
+    static const opacityErrorOpacity100 = Color(0x0AD51F1F);
+    static const opacityErrorOpacity200 = Color(0x12D51F1F);
+    static const opacityErrorOpacity300 = Color(0x21D51F1F);
+    static const opacitySuccessOpacity100 = Color(0x0A55B44B);
+    static const opacitySuccessOpacity200 = Color(0x1255B44B);
+    static const opacitySuccessOpacity300 = Color(0x2139A758);
+    static const gradientOrange1 = Color(0xFFEF5B3E);
+    static const gradientOrange2 = Color(0xFFF24D4D);
+    static const gradientLime1 = Color(0xFFE1E9B8);
+    static const gradientLime2 = Color(0xFFCCE9CC);
+    static const gradientPeach1 = Color(0xFFFBF5D6);
+    static const gradientPeach2 = Color(0xFFFACE90);
+}

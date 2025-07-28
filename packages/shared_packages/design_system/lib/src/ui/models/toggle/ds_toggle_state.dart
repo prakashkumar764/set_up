@@ -1,0 +1,1 @@
+enum DSToggleState { normal, disabled }

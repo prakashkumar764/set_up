@@ -1,0 +1,1 @@
+enum DSToastStyle { light, dark }

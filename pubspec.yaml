@@ -1,0 +1,93 @@
+name: base
+publish_to: 'none'
+
+version: 1.1.0+1
+
+environment:
+  sdk: ">=3.7.2 <4.0.0"
+  flutter: ">=3.29.3"
+
+# List all packages in the workspace
+workspace:
+  - apps/base_app
+  - packages/shared_packages/design_system/
+  #- tools/code_generator
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl: any
+
+dev_dependencies:
+  build_runner: ^2.4.6
+  flutter_lints: ^5.0.0
+  melos: ^7.0.0-dev.8
+
+
+melos:
+  ide:
+    intellij:
+      enabled: true
+      moduleNamePrefix: 'base_'
+
+
+
+      #************************ Custom commands to run with `melos` ******************************
+      #*******************************************************************************************
+
+  scripts:
+    flutter-analyze:
+      description: Runs `flutter analyze` in all packages.
+      run: melos exec -- flutter analyze --no-fatal-infos --no-fatal-warnings
+
+    flutter-clean:
+      description: Runs `flutter clean` in all of the packages.
+      run: melos exec flutter clean
+
+    build-runner:
+      description: Runs `flutter build_runner` in all of the packages.
+      run: melos exec -c 1 --depends-on="build_runner"  dart run build_runner build -d
+
+    gen-l10n:
+      description: Runs the "flutter gen-l10n" command in all of the packages, if applicable. Note that the "l10n" package must be added in the "lib" folder as per current setup of this command.
+      run: melos exec --dir-exists="lib/l10n" flutter gen-l10n
+
+    prepare:
+      description: Runs the all the necessary command to run project.
+      run:
+        melos bootstrap --no-example &&
+        melos gen-l10n
+
+    test:
+      description: Run unit test across all the packages which contains "test" directory.
+      run: melos exec -c 1 --dir-exists="test" -- flutter test
+
+    clear-coverage:
+      description: Removes the "coverage" folder from all of the packages.
+      run:
+        melos exec --dir-exists="coverage" rm -rf "coverage" &&
+        melos exec --dir-exists="full_coverage" rm -rf "full_coverage"
+
+
+
+  command:
+    bootstrap:
+      hooks:
+        pre: git config core.hooksPath git_hooks
+      environment:
+        sdk: '>=3.7.2 <4.0.0'
+        flutter: '>=3.29.3'
+      dependencies:
+        intl: any
+        cupertino_icons: ^1.0.8
+        provider: ^6.0.5
+        http: ^1.0.0
+        dio: ^5.8.0+1
+        shared_preferences: ^2.5.3
+        flutter_svg: ^2.2.0
+        cached_network_image: ^3.3.0
+        equatable: ^2.0.5
+
+
