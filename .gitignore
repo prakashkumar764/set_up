@@ -50,8 +50,8 @@ apps/base_app/.dart_tool/
 
 # Flutter/Dart/Pub related
 **/doc/api/
-.dart_tool/
-.flutter-plugins
+**/.dart_tool/
+.flutter-plugins/
 .flutter-plugins*
 .flutter-plugins-dependencies
 **/generated_plugin_registrant.dart
