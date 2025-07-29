@@ -66,8 +66,9 @@ class _ProductListWidgetState extends State<ProductListWidget> {
                                 textColor: Colors.black,
                               ),
                               const SizedBox(height: 8), //SizedBox
-                              const DSText(
+                              DSText(
                                 text:
+                                    product?.description ??
                                     'It contains well written and well explained text and much more!!',
                                 textStyle:
                                     DSTextStyleType.primaryButtonLRegular,

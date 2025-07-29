@@ -21,6 +21,7 @@ extension ProductListDTOMapper on ProductDto {
     return Product(
       id: id,
       name: name,
+      description: description,
       createdAt: createdAt,
       belongsToId: belongsToId,
     );
